@@ -1,0 +1,5 @@
+//There are tons of online tools to convert html into pug pug into html
+
+//TEMPLATE INHERITANCE
+*Basic idea of template inheritance is we should have a file named 'base.pug' or 'layout.pug'
+

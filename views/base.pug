@@ -1,0 +1,24 @@
+//- layout.pug
+//-from template inheritance pugjs.org
+
+doctype html
+html
+  head
+    title Mridul Dance Academy
+    block scripts
+    block style
+  body
+    nav.top.anotherClass#navbar
+        ul
+            div#logo
+                img(src="/static/img/logo.png")
+                | MDA
+            li #[a(href="/").single Home]
+            li #[a(href="/").single About]
+            li #[a(href="/").single Services]
+            li #[a(href="/").single Class Info]
+            li #[a(href="/contact").single Contact Us]
+    block content
+    
+    footer#footer
+        | copyright &copy; 2022 MrDullDanceAcademy.com || All rights reserved

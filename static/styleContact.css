@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 10px 0px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 1.6em;
+}
+.container{
+    min-height: 77vh;
+    margin: 20px 6px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.myInput{
+    width: 400px;
+    height: 30px;
+    padding: 7px;
+    margin:7px 0px;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+
+}
+.myInput:hover{
+    transform: scale(1.05);
+    transform-origin: center;
+}
+.btn{
+    height: 30px;
+    width: 80px;
+    padding: 4px;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #d43b3b;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}

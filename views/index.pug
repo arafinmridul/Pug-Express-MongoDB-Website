@@ -1,0 +1,65 @@
+//- index.pug
+//-Pug has rules of indents just like Python
+//-Here, everything that is placed one indent ahead of html is included in html. The rule works for all the tags just like that
+
+doctype html
+html
+  head
+    title Mridul Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav.top.anotherClass#navbar
+        ul
+            div#logo
+                img(src="/static/img/logo.png")
+                | MDA
+            li #[a(href="/").single Home]
+            li #[a(href="/").single About]
+            li #[a(href="/").single Services]
+            li #[a(href="/").single Class Info]
+            li #[a(href="/contact").single Contact Us]
+    
+    section#introSection
+            div Welcome to Mridul's Dance Academy
+            div.small Eat Sleep Dance Repeat
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsors
+            img(src= "/static/img/img1.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "/static/img/img2.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "/static/img/img3.jpg", alt= "Sponsor Image", class= "spImage")
+            img(src= "/static/img/img4.png", alt= "Sponsor Image", class= "spImage")
+
+    footer#footer
+        | copyright &copy; 2022 MridulDanceAcademy.com || All rights reserved
+
+    script
+      include ../static/index.js
