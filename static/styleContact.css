@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 html{
     scroll-behavior: smooth;
@@ -11,7 +11,7 @@ html{
 h1{
     text-align: center;
     margin: 10px 0px;
-    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 1.6em;
 }
 .container{
