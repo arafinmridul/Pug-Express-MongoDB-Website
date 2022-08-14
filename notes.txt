@@ -1,5 +1,6 @@
-//There are tons of online tools to convert html into pug pug into html
+//There are tons of online tools to convert html into pug and pug into html
 
 //TEMPLATE INHERITANCE
 *Basic idea of template inheritance is we should have a file named 'base.pug' or 'layout.pug'
 
+//Responding to post requests using express might use body-parser npm as a middleware
