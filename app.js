@@ -21,12 +21,11 @@ const forms = mongoose.model('contforms', formSchema);
 
 
 //EXPRESS SPECIFIC STUFF
-//reference, express api reference
 app.use('/static', express.static('static'));
-app.use(express.urlencoded()); //parses incoming requests with urlencoded payloads and is based on body-parser
+app.use(express.urlencoded()); //parses incoming requests
 
 //PUG SPECIFIC STUFF
-app.set('views', path.join(__dirname, 'views')); //'views' directory to get pug file
+app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
 //ENDPOINTS
